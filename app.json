@@ -61,9 +61,8 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
-      "required": false
-    },
+      "value": "no",
+      "required": valueee
     "HEROKU_API_KEY": {
       "description": "Enter your Heroku API key to be able to control your vars",
       "value": "",
@@ -76,7 +75,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "value": "256744111341",
       "required": false 
     },
     "STATUS_REACT_EMOJIS": {
@@ -96,7 +95,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "Ian Joel",
       "required": false
     },
     "SESSION_ID": {
@@ -105,13 +104,13 @@
       "required": true
     },    
     "STARTING_BOT_MESSAGE": {
-      "description": "Enable starting message (yes/no)",
-      "value": "yes",
+      "description": "starting message (yes/no)",
+      "value": "no",
       "required": true
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "1",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
