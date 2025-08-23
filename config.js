@@ -1,4 +1,4 @@
-// Bwm xmd by Ibrahim Adams 
+'yes''wm xmd by Ibrahim Adams 
 
 const fs = require('fs-extra');
 const { Sequelize } = require('sequelize');
@@ -104,16 +104,16 @@ class HybridConfigManager {
             },
             settings: {
                 AUDIO_CHATBOT: process.env.AUDIO_CHATBOT || 'no',
-                AUTO_BIO: process.env.AUTO_BIO || 'yes',
+                AUTO_BIO: process.env.AUTO_BIO |'no',
                 AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
                 AUTO_REACT: process.env.AUTO_REACT || 'no',
-                AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS || 'yes',
+                AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS |'no',
                 AUTO_READ: process.env.AUTO_READ || 'yes',
                 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || 'yes',
                 CHATBOT: process.env.CHATBOT || 'no',
-                PUBLIC_MODE: process.env.PUBLIC_MODE || 'yes',
+                PUBLIC_MODE: process.env.PUBLIC_MODE |'no',
                 STARTING_BOT_MESSAGE: process.env.STARTING_BOT_MESSAGE || 'yes',
-                PRESENCE: process.env.PRESENCE || '',
+                PRESENCE: process.env.PRESENCE || '1',
                 ANTIDELETE_RECOVER_CONVENTION: process.env.ANTIDELETE_RECOVER_CONVENTION || 'no',
                 ANTIDELETE_SENT_INBOX: process.env.ANTIDELETE_SENT_INBOX || 'yes',
                 GOODBYE_MESSAGE: process.env.GOODBYE_MESSAGE || 'no',
