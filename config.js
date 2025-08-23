@@ -1,4 +1,4 @@
-'yes''wm xmd by Ibrahim Adams 
+   
 
 const fs = require('fs-extra');
 const { Sequelize } = require('sequelize');
