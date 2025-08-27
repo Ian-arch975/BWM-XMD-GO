@@ -1,7 +1,3 @@
-
-
-
-
 <!-- Glowing Header -->
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
@@ -65,4 +61,21 @@
 
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Ian-arch975&theme=blue-green"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ian-arch975&theme=blue-green"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ian-arch975&theme=blue-green"/>
+</p>
+
+<!-- Status Bar -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ian-arch975&repo=BWM-XMD&theme=blue-green"/>
 </p>
